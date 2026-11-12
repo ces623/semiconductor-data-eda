@@ -1,0 +1,142 @@
+{
+ "A": {
+  "random_cv": {
+   "roc_auc": 0.914,
+   "pr_auc": 0.569,
+   "base": 0.064
+  },
+  "n_features": 134,
+  "train": [
+   3906,
+   287,
+   7.35
+  ],
+  "test": [
+   1302,
+   48,
+   3.69
+  ],
+  "split_date": "2024-05-16",
+  "results": {
+   "로지스틱 회귀": {
+    "roc_auc": 0.665,
+    "pr_auc": 0.082,
+    "recall_top10": 0.208,
+    "precision_top10": 0.077
+   },
+   "랜덤 포레스트": {
+    "roc_auc": 0.707,
+    "pr_auc": 0.082,
+    "recall_top10": 0.25,
+    "precision_top10": 0.092
+   },
+   "그래디언트 부스팅": {
+    "roc_auc": 0.647,
+    "pr_auc": 0.079,
+    "recall_top10": 0.25,
+    "precision_top10": 0.092
+   }
+  },
+  "best": "랜덤 포레스트",
+  "importance": {
+   "AMPS_TARGET_20_95_DEP1_M": 0.0035,
+   "TEMP_PLATEN_RUN_A": 0.003,
+   "PRESS_CHAMBER_DEP1_A": 0.0029,
+   "AMPS_TARGET_20_90_DEP1_M": 0.0025,
+   "AMPS_TARGET_20_95_DEP1_X": 0.0025,
+   "AMPS_TARGET_SPS_DEP1_A": 0.0024,
+   "VOLTS_TARGET_RUN_A": 0.0023,
+   "TEMP_PLATEN_DEP1_A": 0.0023,
+   "VOLTS_TARGET_DEP1_A": 0.0023,
+   "PRESS_CHAMBER_DEP1_S": 0.0022
+  }
+ },
+ "B": {
+  "n_features": 76,
+  "normals": 107,
+  "faults": 21,
+  "excluded": [
+   "l3125"
+  ],
+  "exp_counts": {
+   "0": {
+    "l29": 34,
+    "l31": 36,
+    "l33": 37
+   },
+   "1": {
+    "l29": 9,
+    "l31": 6,
+    "l33": 6
+   }
+  },
+  "all": {
+   "단변량 max|z|": {
+    "false_alarm": 7.5,
+    "detection": 76.2,
+    "detected": 16
+   },
+   "PCA T²": {
+    "false_alarm": 10.3,
+    "detection": 47.6,
+    "detected": 10
+   },
+   "PCA SPE": {
+    "false_alarm": 3.7,
+    "detection": 81.0,
+    "detected": 17
+   },
+   "T² 또는 SPE": {
+    "false_alarm": 6.5,
+    "detection": 76.2,
+    "detected": 16
+   }
+  },
+  "per_exp": {
+   "단변량 max|z|": {
+    "false_alarm": 9.3,
+    "detection": 100.0,
+    "detected": 21
+   },
+   "PCA T²": {
+    "false_alarm": 21.5,
+    "detection": 85.7,
+    "detected": 18
+   },
+   "PCA SPE": {
+    "false_alarm": 2.8,
+    "detection": 100.0,
+    "detected": 21
+   },
+   "T² 또는 SPE": {
+    "false_alarm": 12.1,
+    "detection": 100.0,
+    "detected": 21
+   }
+  },
+  "missed": [],
+  "caught": [
+   "TCP +50",
+   "RF -12",
+   "RF +10",
+   "Pr +3",
+   "TCP +10",
+   "BCl3 +5",
+   "Pr -2",
+   "Cl2 -5",
+   "He Chuck",
+   "TCP +30",
+   "Cl2 +5",
+   "RF +8",
+   "BCl3 -5",
+   "Pr +2",
+   "TCP -20",
+   "TCP -15",
+   "Cl2 -10",
+   "RF -12",
+   "BCl3 +10",
+   "Pr +1",
+   "TCP +20"
+  ]
+ }
+}

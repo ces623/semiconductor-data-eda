@@ -1,0 +1,210 @@
+{
+ "1": {
+  "rows": 5208,
+  "cols": 179,
+  "machines": 6,
+  "equipment": 16,
+  "bad_rate": 6.43,
+  "thick_mean": 152.09,
+  "thick_std": 2.49,
+  "top_corr": {
+   "T_DEP1_PROCESS_MR": 0.317,
+   "AMPS_TARGET_DEP1_A_MR": 0.307,
+   "DCBIAS_PLATEN_DEP1_A_MR": 0.269,
+   "DCBIAS_PLATEN_DEP1_I_MR": 0.263,
+   "PRESS_IONGAUGE_BP_I_ENG1": -0.263,
+   "PRESS_PUMP2BASE_I": -0.24,
+   "PRESS_IONGAUGE_BP_I": -0.24,
+   "PRESS_IONGAUGE_BP_I_ENG": -0.226
+  },
+  "bad_by_machine": {
+   "machine_1": 4.81,
+   "machine_2": 9.72,
+   "machine_3": 7.21,
+   "machine_4": 8.27,
+   "machine_5": 2.81,
+   "machine_6": 4.29
+  },
+  "period": [
+   "2021-07-31",
+   "2025-05-31"
+  ]
+ },
+ "2": {
+  "excluded": [
+   "l3125"
+  ],
+  "wafers": 129,
+  "normal": 108,
+  "fault": 21,
+  "rows": 12826,
+  "sensors": 19,
+  "fault_types": 20,
+  "top_diff": {
+   "bcl3_flow_std": 60.48,
+   "rf_tuner_std": 1.98,
+   "pressure_std": 1.5,
+   "rf_load_std": 1.37,
+   "vat_valve_mean": 0.93
+  }
+ },
+ "3": {
+  "rows": 7832,
+  "wafers": 88,
+  "lots": 10,
+  "first_last": [
+   44.13,
+   43.2
+  ],
+  "si_mean": 43.67,
+  "si_min": 28.65,
+  "si_max": 52.78,
+  "within_wafer_cv": 8.26,
+  "edge_vs_center": 4.63,
+  "selectivity": 67.4,
+  "nan_postox": 157
+ },
+ "4": {
+  "samples": 4,
+  "profiles": 8,
+  "scans": 207,
+  "peak_18O": {
+   "S3": 46.8,
+   "S1": 24.4,
+   "S2": 17.3,
+   "S4": 11.9
+  }
+ },
+ "5": {
+  "sample": 190,
+  "size": [
+   52,
+   52
+  ],
+  "combos": 38,
+  "full": 38015,
+  "pixel_vals": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "n_defect_types": {
+   "0": 5,
+   "1": 40,
+   "2": 65,
+   "3": 60,
+   "4": 20
+  }
+ },
+ "6": {
+  "full": 4591,
+  "sample": 52,
+  "dist": {
+   "1": 55,
+   "2": 8,
+   "3": 4008,
+   "4": 289,
+   "5": 4,
+   "6": 227
+  },
+  "size": "480×480 흑백",
+  "imbalance": 1002.0
+ },
+ "7": {
+  "VNIR+SWIR": {
+   "shape": [
+    450,
+    76,
+    40
+   ],
+   "wl": [
+    0.38,
+    2.5
+   ]
+  },
+  "MWIR": {
+   "shape": [
+    308,
+    85,
+    89
+   ],
+   "wl": [
+    2.71,
+    5.28
+   ]
+  },
+  "LWIR": {
+   "shape": [
+    103,
+    89,
+    79
+   ],
+   "wl": [
+    7.64,
+    12.32
+   ]
+  }
+ },
+ "8": {
+  "rows": 71409,
+  "by": {
+   "HfO/OOD": 6996,
+   "HfO/Testset": 3510,
+   "HfO/Trainset": 27960,
+   "HfO/Validset": 3510,
+   "SiN/OOD": 1235,
+   "SiN/Testset": 2866,
+   "SiN/Trainset": 22510,
+   "SiN/Validset": 2822
+  },
+  "frame_atoms": 105,
+  "elements": {
+   "N": 60,
+   "Si": 45
+  },
+  "max_force": 0.16
+ },
+ "9": {
+  "rows": 3884,
+  "dois": 597,
+  "agree": 72.0,
+  "by_field": {
+   "precursor": 57.6,
+   "growth_per_cycle": 60.2,
+   "pulse_time": 65.0,
+   "co_reactant": 68.8,
+   "chamber_pressure": 73.2,
+   "purge_time": 80.6,
+   "deposition_temperature": 83.9,
+   "material": 84.6
+  },
+  "examples": [
+   [
+    "precursor",
+    "Mo(NMe2)4",
+    "tetrakis(dimethylamido)-molybdenum"
+   ],
+   [
+    "material",
+    "Pt | Ir | PtIr alloy | Al2O3",
+    "Pt | Ir | PtIr"
+   ],
+   [
+    "co_reactant",
+    "CH3COOH",
+    "acetic acid"
+   ],
+   [
+    "deposition_temperature",
+    "200 °C | 250 °C",
+    "200 °C"
+   ],
+   [
+    "pulse_time",
+    "2.1 s",
+    "2.1 s | 0.6 s"
+   ]
+  ]
+ }
+}
